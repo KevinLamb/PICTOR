@@ -72,9 +72,9 @@ fclose($statusFile);
             </div>
 
             <div class="wrap-input100">
-                <div class="label-input100">Bandwidth</div>
+                <label class="label-input100" for="bandwidth">Bandwidth</label>
                 <div>
-                    <select class="js-select2" name="bandwidth">
+                    <select id="bandwidth" class="js-select2" name="bandwidth">
                         <option value="500khz">500 kHz</option>
                         <option value="1mhz">1 MHz</option>
                         <option value="2mhz">2 MHz</option>
@@ -87,9 +87,9 @@ fclose($statusFile);
             </div>
 
             <div class="wrap-input100">
-                <div class="label-input100">Number of channels</div>
+                <label class="label-input100" for="channels">Number of channels</label>
                 <div>
-                    <select class="js-select2" name="channels">
+                    <select id="channels" class="js-select2" name="channels">
                         <option value="256" >256</option>
                         <option value="512" >512</option>
                         <option value="1024">1024</option>
